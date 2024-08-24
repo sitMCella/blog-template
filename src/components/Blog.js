@@ -23,7 +23,7 @@ function Blog() {
       tag.includes(searchText.toLowerCase()),
     );
     setFilterTags(filteredTags);
-    if (filterTags.length > 0) {
+    if (filteredTags.length > 0) {
       setIsTagsListVisible(true);
     } else {
       setIsTagsListVisible(false);
