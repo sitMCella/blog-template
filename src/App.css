@@ -10,6 +10,15 @@
   flex-wrap: wrap;
 }
 
+.articleBody {
+  overflow: auto;
+}
+
 pre {
   font-size: 0.9rem !important;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
 }
