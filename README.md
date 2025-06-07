@@ -38,3 +38,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ```sh
 npx prettier . --write
 ```
+
+### Format code snippet
+
+```sh
+./code_format.sh -p <file_path>
+```
+
+where <file_path> is the path of the file with the code snippet.

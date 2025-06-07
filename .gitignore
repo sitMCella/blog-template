@@ -22,3 +22,5 @@ yarn-error.log*
 
 .clj-kondo/
 .lsp/
+
+code_snippet_formatted.txt
