@@ -2,12 +2,12 @@
 
 # Format code snippets to insert in a blog post.
 # Usage:
-# ./code_format.sh -p <file_path>
+# ./code_snippet_format.sh -p <file_path>
 # where <file_path> is the path of the file with the code snippet.
 # The script creates an output file "code_snippet_formatted.txt".
 
 function display_help() {
-    echo "Usage: ./code_format.sh -p <file_path>"
+    echo "Usage: ./code_snippet_format.sh -p <file_path>"
     echo "  -p, --path   Path of the file with the code snippet"
 }
 
