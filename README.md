@@ -42,7 +42,7 @@ npx prettier . --write
 ### Format code snippet
 
 ```sh
-./code_format.sh -p <file_path>
+./code_snippet_format.sh -p <file_path>
 ```
 
 where <file_path> is the path of the file with the code snippet.
