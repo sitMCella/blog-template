@@ -4,6 +4,7 @@ import Navigation from "../Navigation";
 import Footer from "../Footer";
 import Prism from "prismjs";
 import "prismjs/themes/prism-twilight.css";
+import "prismjs/components/prism-javascript";
 import { CalendarDateRangeIcon, TagIcon } from "@heroicons/react/24/outline";
 import image from "./images/image.jpg";
 import "./css/Post1.css";
@@ -84,7 +85,7 @@ function Post1() {
                 snippets.
               </p>
               <pre className="mt-4 text-left h-68 w-full">
-                <code className="language-js">
+                <code className="language-javascript">
                   function greetUser(name) &#123;
                   <br />
                   &nbsp;&nbsp;if (!name) &#123;
@@ -93,7 +94,8 @@ function Post1() {
                   <br />
                   &nbsp;&nbsp;&#125; else &#123;
                   <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;console.log(`Hello, $&#123;name&#125;!`);
+                  &nbsp;&nbsp;&nbsp;&nbsp;console.log(`Hello,
+                  $&#123;name&#125;!`);
                   <br />
                   &nbsp;&nbsp;&#125;
                   <br />
