@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, Fragment } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router";
 import { Helmet } from "react-helmet";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
@@ -188,7 +188,7 @@ function Blog() {
                 <Link to="/Post1" state={{ themeMode: themeMode }}>
                   <div className="mt-16 flex justify-items-start content">
                     <p className="font-semibold text-left text-lg lg:text-2xl w-full md:w-full dark:text-gray-custom1">
-                      Example post
+                      Example Blog Post
                     </p>
                     <div className="line-break"></div>
                     <span className="flex items-center">
