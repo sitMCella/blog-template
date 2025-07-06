@@ -6,6 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The web application has been adjusted for GitHub pages, refer to: https://github.com/rafgraph/spa-github-pages
 
+## Tailwindcss
+
+https://tailwindcss.com/docs/installation
+
+## Prism.js
+
+https://prismjs.com/
+
+## Icons
+
+https://heroicons.com/outline
+
 ## Available Scripts
 
 In the project directory, you can run:
