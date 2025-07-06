@@ -49,7 +49,7 @@ function Post1() {
         <meta property="og:description" content="example blog post" />
         <meta property="og:type" content="website" />
       </Helmet>
-      
+
       <div className={themeMode === "dark" ? "dark" : "light"}>
         <Navigation
           themeMode={themeMode}
@@ -75,8 +75,8 @@ function Post1() {
                   article serves as content for the card in the Blog page.
                 </p>
                 <p className="leading-7 mt-4 text-left text-base lg:text-lg prose dark:prose-dark dark:prose-invert w-full">
-                  This web site uses a custom blog design and is built using React
-                  and Tailwind CSS [1].
+                  This web site uses a custom blog design and is built using
+                  React and Tailwind CSS [1].
                 </p>
                 <p className="leading-7 mt-4 text-left text-base lg:text-lg prose dark:prose-dark dark:prose-invert w-full">
                   The GitHub repository of the project is the following:

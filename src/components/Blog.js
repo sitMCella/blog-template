@@ -199,8 +199,9 @@ function Blog() {
                     </span>
                     <div className="line-break"></div>
                     <p className="mt-4 text-left text-base lg:text-lg line-clamp-3 prose dark:prose-dark dark:prose-invert">
-                      The following is an example post. The first paragraph of the
-                      article serves as content for the card in the Blog page.
+                      The following is an example post. The first paragraph of
+                      the article serves as content for the card in the Blog
+                      page.
                     </p>
                   </div>
                 </Link>
